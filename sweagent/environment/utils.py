@@ -419,8 +419,7 @@ def attach_network_interface_to_container(container_name: str) -> None:
 
 def get_docker_compose(docker_compose_path: Path) -> Path:
     startup_cmd = [
-        "docker",
-        "compose",
+        "docker-compose",
         "-f",
         str(docker_compose_path),
         "up",

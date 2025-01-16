@@ -197,3 +197,6 @@ data/**
 # Disasm / Decomp output
 *.decomp.json
 *.disas.json
+
+# soyoung test files
+test_command
